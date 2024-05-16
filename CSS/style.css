@@ -1,0 +1,499 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* END OF CSS RESET */
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+
+/* stylish portfolio */
+.hero {
+    height: 100vh;
+    background-image: url(../Images/yellow-background-pencil-designer\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    text-align: center;
+    color: rgb(36, 35, 35, 0.9);
+
+}
+
+h1 {
+    font-size: 64px;
+    color: rgb(36, 35, 35, 0.9);
+    padding-top: 250px;
+    font-family:bold ;
+}
+
+p {
+    font-size: 20px;
+    font-family: regular;
+    font-style: bold;
+}
+
+.hero button {
+    background-color: rgb(53, 129, 159);
+    border-radius: 3px;
+    margin-top: 40px;
+    padding: 10px;
+    font-family: bold !important;
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 150px;
+    font-size: 16px;
+}
+
+.hero button:hover{
+    background-color: rgb(221, 144, 0);
+}
+
+/* about */
+.about {
+    height: 50vh;
+    text-align: center;
+    padding-top: 80px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: bold;
+
+}
+
+.about button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(36, 35, 35);
+    border-radius: 3px;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: bold;
+    border: none;
+    width: 150px;
+}
+
+.about button:hover{
+    background-color: rgb(221, 144, 0);
+}
+
+/* services */
+
+.services {
+    background-color: rgba(53, 129, 159);
+    width: 100%;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.services .icons{
+    display: flex;
+    padding-top: 10px;
+    
+}
+.services  h4{
+    color: rgb(221, 144, 0);
+    font-family: regular;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: lighter;
+    color: white;
+}
+
+.services-inner{
+    display: flex;
+    padding-top: 20px;
+justify-content: space-around;
+    
+}
+
+.services-inner i{
+    background-color:rgba(254, 253, 253, 0.949);
+    clip-path: circle(30%);
+    width: 20vh;
+    height: 15vh; 
+    padding-top: 30px;
+    align-self: center;
+}
+.services .services-heading{
+    font-family: regular;
+    font-size: 15px;
+    color: var(--h4);
+}
+.services p{
+    font-family: regular;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+}
+.services h3{
+    color: white;
+}
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+/* welcome */
+
+.next-web {
+    height: 100vh;
+    background-image: url(../Images/scissors2.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    text-align: center;
+    color: rgb(36, 35, 35, 0.9);
+}
+
+.next-web h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(36, 35, 35, 0.9);
+    padding-bottom: 20px;
+    padding-top: 250px;
+    font-style: bold;
+
+}
+
+
+.next-web button {
+    background-color: rgb(53, 129, 159);
+    border-radius: 3px;
+    margin-top: 40px;
+    padding:10px;
+    font-family: roboto;
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 150px;
+    font-size: 16px;
+
+}
+
+.next-web button:hover{
+    background-color: rgb(221, 144, 0);
+}
+
+/* Projects */
+
+.projects {
+    height: 100vh;
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 80px;
+}
+
+
+
+.projects h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(221, 144, 0);
+    text-align: center;
+    font-family: regular;
+    
+}
+
+.projects {
+    padding-top: 60px;
+}
+
+.projects h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(36, 35, 35, 0.9);
+    text-align: center;
+    padding-bottom: 80px;
+    font-family: bold;
+}
+
+.content-inner1 {
+    background-image: url(../Images/envelopes.jpg);
+    height: 40vh;
+    width: 30%;
+    background-size: cover;
+
+}
+
+.content-inner1:hover{
+    transform: scale(.9); 
+    
+}
+
+
+
+
+
+.content-inner2 {
+    background-image: url(../Images/pencil.jpg);
+    height: 40vh;
+    width: 30%;
+    background-size: cover;
+}
+
+.content-inner2:hover{
+    transform: scale(.9); 
+    
+}
+
+.content-inner3 {
+    background-image: url(../Images/strawberry.PNG);
+    height: 40vh;
+    width: 30%;
+    background-size: cover;
+
+}
+
+.content-inner3:hover{
+    transform: scale(.9); 
+    
+}
+
+.content-inner4 {
+    background-image: url(../Images/yellow-background-pencil-designer.jpg);
+    height: 24, 1vh;
+    width: 30%;
+    background-size: cover;
+}
+.content-inner4:hover{
+    transform: scale(.9);
+}
+
+.projects .content .content-inner img {
+    width: 50vh;
+    padding: none;
+}
+
+.projects .content {
+    display: flex;
+    justify-content: center;
+}
+
+.projects .content-inner h2 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+
+}
+
+.projects .content h2 {
+    margin-top: 170px;
+    font-family: bold;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+    padding-right: 300px;
+
+
+}
+
+.projects .content p {
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: normal;
+
+
+}
+
+.projects .content h2 {
+    opacity: 0;
+}
+
+.projects .content :hover h2 {
+    opacity: 1;
+}
+
+
+.projects .content p{
+    opacity: 0;
+}
+
+
+.projects .content p:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
+/* contact */
+.contact {
+    background-color: rgba(53, 129, 159);
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: bold;
+    color: rgb(255, 255, 255);
+
+}
+
+.Contact .contact {
+    display: flex;
+}
+
+.contact .b-one {
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    margin-top: 40px;
+    padding: 10px;
+    font-family: bold !important;
+    color: rgb(36, 35, 35, 0.9);
+    border: none;
+    width: 150px;
+    font-size: 14px;
+
+}
+
+.contact .b-two {
+    background-color: rgb(36, 35, 35);
+    border-radius: 3px;
+    margin-top: 40px;
+    padding: 10px;
+    font-family: bold !important;
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 150px;
+    font-size: 14px;
+    margin-left: 40px;
+    padding-bottom: 10px;
+
+
+}
+
+.contact P {
+    font-family: bold;
+    font-size: 20px;
+    font-style: normal;
+}
+
+
+
+/* footer */
+footer{
+    text-align: center;
+    height: 30vh;
+    font-family: regular;
+
+}
+
+    
+footer h4 {
+    color: rgb(36, 35, 35, 0.9);
+    padding-top: 20px;
+    
+}
+footer .icons i{
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+/* iphone 14Pro Max */
+@media(max-width:430px) {
+
+    /* hero */
+    .hero.hero {
+        margin-top: 5px;
+    }
+
+    /* end of hero */
+
+    /* about */
+    .about {
+        height: 60vh;
+    }
+
+
+
+    /* end of about */
+
+    /* services */
+    .services {
+        height: 80vh;
+        text-align: center;
+    }
+
+    .icons p {
+        color: white;
+        cursor: text;
+    }
+
+    .icons {
+        padding: 20px;
+        display: flex;
+        flex-wrap: row;
+    }
+
+
+    /* end of services */
+
+
+    /* welcome */
+    .next-web {
+        height: 80vh;
+    }
+}
+
+
+/* media queries */
+/* ipad mini */
+@media(max-width:768px) {
+
+    /* herp */
+    .hero.hero {
+        margin-top: 5px;
+    }
+
+    /* end of hero */
+
+
+    /* about*/
+    .about {
+        height: 60vh;
+    }
+
+    /* end of about */
+
+
+    /* services */
+
+    .services {
+        height: 80vh;
+    }
+}
