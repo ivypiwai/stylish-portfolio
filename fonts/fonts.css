@@ -7,3 +7,13 @@
     font-family: regular;
     src: url(Montserrat-Regular.ttf);
 }
+
+@font-face{
+    font-family: boldd;
+    src: url(Roboto-Bold.ttf);
+}
+
+@font-face{
+    font-family: regularr;
+    src: url(Roboto-Regular.ttf);
+}
